@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Responsável</title>
+    <link rel="stylesheet" href="resp.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Responsável</h1>
+        <form id="responsavelForm">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" required>
+            </div>
+            <div class="form-group">
+                <label for="matriculaaluno">Matrícula do Aluno:</label>
+                <input type="text" id="matriculaaluno" name="matriculaaluno" required>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div id="response"></div>
+    </div>
+    <script src="scriptR.js"></script>
+</body>
+</html>
